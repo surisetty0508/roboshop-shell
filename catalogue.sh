@@ -40,4 +40,4 @@ echo -e '\e[36m>>>>>>>>install mongodb client <<<<<<<<\e[0m'
 yum install mongodb-org-shell -y
 
 '\e[36m>>>>>>>>load schema<<<<<<<<\e[0m'
-mongo --host mongodb.dev.devops72.online </app/schema/catalogue.js
+mongo --host mongodb.dev.devops72.online</app/schema/catalogue.js
