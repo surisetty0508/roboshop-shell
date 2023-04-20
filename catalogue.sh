@@ -31,6 +31,7 @@ systemctl daemon-reload
 systemctl enable catalogue
 systemctl restart catalogue
 
+
 echo -e '\e[36m>>>>>>>>copy mongodb repo <<<<<<<<\e[0m'
 
 cp /home/centos/roboshop-shell/mongo.repo /etc/yum.repos.d/mongo.repo
